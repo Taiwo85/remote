@@ -8,3 +8,7 @@
 #variable "sns_topic_arn" {}
 # variable  "sns_topic_name" {}
 # security group {}
+# variable "aws_region" {
+#   default = "us-west-2"
+
+# }
