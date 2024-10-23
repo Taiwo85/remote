@@ -12,3 +12,9 @@
 #   default = "us-west-2"
 
 # }
+# resource "aws_subnet" "public_subnet" {
+#     vpc_id =  var.vpc_id
+#     cidr_block = cidrsubnet(var.vpc_cidr_block,8,2 + count.index)
+#     availability_zone = element(var.availability_zone, count.index)
+#     map_public_ip_on_launch = true
+#     count =var.public.subnet_count
