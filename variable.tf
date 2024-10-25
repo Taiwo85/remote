@@ -18,3 +18,7 @@
 #     availability_zone = element(var.availability_zone, count.index)
 #     map_public_ip_on_launch = true
 #     count =var.public.subnet_count
+# variable "aws_region" {
+#   default = "us-west-2"
+
+# }
