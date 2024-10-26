@@ -22,3 +22,4 @@
 #   default = "us-west-2"
 
 # }
+#   resource "aws_subnet" "private_subnet" {
