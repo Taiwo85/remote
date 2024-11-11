@@ -26,3 +26,4 @@
 #     vpc_id = var.vpc_id
 #     cidr_block = cidrsubnet(var.vpc_cidr_block,8,2 +
 #     count.index)
+#     availability_zone = element(var.availability_zone, count.index)
