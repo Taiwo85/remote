@@ -28,3 +28,4 @@
 #     count.index)
 #     availability_zone = element(var.availability_zone, count.index)
 #     count = var.private.subnet_count
+#     count = var.public.subnet_count
